@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Todo App</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="wrapper">
+  
+
+  <h1>jQuery Todo App</h1>
+  <span class='error'>&nbsp;</span>
+
+  <form id="todoForm">
+    <label>Enter A Task</label>
+    <input id="userInput" name="userInput" type="text">
+    <div id="btnContainer">
+      <button id="addTaskBtn">Add Task</button>
+      <button id="removeTaskBtn" class="button-primary">Remove All Tasks</button>
+    </div>
+    
+  </form>
+
+  <ul id="list">
+    <li>Watch Game Of Thrones</li>
+    <li>Play Pokemon Go</li>
+    <li>Go to the gym</li>
+  </ul>
+
+</div>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='jqueryTodo.js'></script>
+</body>
+</html>
